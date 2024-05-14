@@ -2,7 +2,7 @@
 require 'connection.php';
 
 // Debugging: Check if form data is received
-var_dump($_POST);
+// var_dump($_POST); //commented to prevent display
 
 if(isset($_POST["username"], $_POST["email"], $_POST["password"])){
     $username = $_POST["username"];
